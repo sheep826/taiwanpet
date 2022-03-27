@@ -1,0 +1,66 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.vdog{
+    width: 100%;
+    height: 100%;
+}
+.banner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.banner h2 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 35vw;
+    text-align: center;
+    line-height: 100vh;
+    background-color: #fff;
+    mix-blend-mode: screen;
+}
+.go{
+    z-index: 10;
+    position: absolute;
+    top: 80%;
+    left: 90%;
+    border-style: solid;
+    border-radius: 100%;
+    padding: 50px;
+}
+.go:hover{    
+    color: white;
+    background-color: black;
+    transition: 0.4s ease;
+}
+
+
+
