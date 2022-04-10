@@ -17,12 +17,12 @@ function container() {
     var ulWidth;
     var liWidth;
 
-    if ($(window).width() < 768) {
+     if ($(window).width() < 1024) {
         liWidth = divWidth;
-        ulNum = liLength;
+      ulNum = liLength;
     } else {
-        liWidth = divWidth / 2;
-        ulNum = liLength / 2;
+      liWidth = divWidth / 2;
+      ulNum = liLength / 2;
     }
 
     $(".container .dog_box li").css("width", liWidth);
